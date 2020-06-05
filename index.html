@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Yojimbo's Number</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
+    <!-- the MAIN.CSS file is linked here -->
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Yojimbo's Number</h1>
+      <img src='yojimbo.png' alt='Yojimbo from Final Fantasy' />
+      <p>You have encountered Yojimbo while adventuring in Eorzea. Beware his awesome blade!</p>
+      <p>In order to continue on your journey you must guess Yojimbo's number.</p>
+      <p>He's thinking of a number from a min of 1 to a max of 100.</p>
+      <p>Upon submitting guesses, Yojimbo will give you clues to let you know if you're close or far from his number.</p>
+      <p>You may ask for a hint during the game, or you may choose to play again.</p>
+
+        <h2>You have five guesses.</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <!-- Audio Source Files -->
+        <audio id='enter'>
+          <source src='enter.mp3' type='audio/mp3'>
+        </audio>
+        <audio id='newgame'>
+          <source src='newgame.mp3' type='audio/mp3'>
+        </audio>
+        <audio id='lose'>
+          <source src='lose.mp3' type='audio/mp3'>
+        </audio>
+        <audio id='win'>
+          <source src='win.mp3' type='audio/mp3'>
+        </audio>
+
+        <!-- Input Field and Buttons -->
+        <input placeholder="enter guess here" id='guess'>
+        <button onclick='playEnter()' type='button' id='submit'>Submit</button>
+        <button onclick='playEnter()' type='button' id='hint'>Hint</button>
+        <hr>
+        <br>
+        <button onclick='playNewGame()' type='button' id='reset'>Play Again</button>
+    </div>
+
+    <script src='js/guessing-game.js'></script>
+  </body>
+</html>

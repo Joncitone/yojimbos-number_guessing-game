@@ -1,0 +1,106 @@
+/* Write your CSS code in this file */
+@font-face {
+  font-family: 'optiengeetienneregular';
+  src: url('optiengeetienneregular.woff2') format('woff2'),
+       url('optiengeetienneregular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: expanded;
+}
+
+* {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(#8b6c24, #521732, #a52921);
+}
+
+h1 {
+  font-family: 'optiengeetienneregular', Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 3px;
+}
+
+h2, h3 {
+  font-family: 'optiengeetienneregular', Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  padding: 1px;
+}
+
+li {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 5px;
+  height: 15px;
+  width: 25px;
+}
+
+img {
+  width: 230px;
+  float: right;
+  padding: 10px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: left;
+}
+
+input {
+  margin: 10px;
+  border: 1px solid rgb(212, 134, 134);
+  background-color: #521732;
+  display: inline-block;
+  height: 30px;
+}
+
+button {
+  margin: 10px;
+  border: 1px solid #8b6c24;
+  border-radius: 10px;
+  background-color: #521732;
+  display: inline-block;
+  height: 30px;
+}
+#Footer {
+  margin-left: -8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: 2px solid black;
+  width: 100%;
+}
+
+#FSA {
+  flex-grow: 1;
+}
+#gitHub {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 1000;
+  color:  #008CBA;
+}
+#GH {
+  margin-right: 20px;
+}
+hr {
+  border-color: #521732;
+}
+
+#guess {
+    width: 10em;
+  }

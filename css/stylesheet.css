@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: 'optiengeetienneregular';
+    src: url('optiengeetienneregular.woff2') format('woff2'),
+         url('optiengeetienneregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
